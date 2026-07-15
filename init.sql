@@ -15,19 +15,18 @@ INSERT INTO employees (birthDate, firstName, lastName, sex, hireDate) VALUES
 ('1992-03-12', 'Laura', 'Martínez', 'F', '2018-09-01'),
 ('1988-07-22', 'Carlos', 'López', 'M', '2012-11-20');
 
--- Crear tabla departamentos
 CREATE TABLE departments (
-  deptNo CHAR(4) PRIMARY KEY,
-  deptName VARCHAR(40) UNIQUE NOT NULL,
-  locationId VARCHAR(40)
+  dept_no CHAR(4) PRIMARY KEY,
+  dept_name VARCHAR(40) UNIQUE NOT NULL,
+  location_id VARCHAR(40)
 );
-
--- Insertar departamentos
+-- Insertar departamentps  de ejemplo
 INSERT INTO departments VALUES
 ('d001', 'Marketing', 'Bogotá'),
 ('d002', 'Finance', 'Medellín'),
 ('d003', 'Human Resources', 'Cali'),
 ('d004', 'IT', 'Barranquilla');
+
 
 -- Crear tabla relación empleados-departamentos
 CREATE TABLE dept_emp (
