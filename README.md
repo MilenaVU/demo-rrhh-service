@@ -56,17 +56,27 @@ DB: puerto interno 3306
 
 📡 Endpoints principales
 ----------Departamentos--------------
+
 GET /departments → Lista todos los departamentos
+
 POST /departments → Crea un nuevo departamento
+
 GET /departments/{id} → Obtiene un departamento por ID
+
 PUT /departments/{id} → Actualiza un departamento
+
 DELETE /departments/{id} → Elimina un departamento
 
 ---------Empleados----------
+
 GET /employees → Lista todos los empleados
+
 POST /employees → Crea un nuevo empleado
+
 GET /employees/{id} → Obtiene un empleado por ID
+
 PUT /employees/{id} → Actualiza un empleado
+
 DELETE /employees/{id} → Elimina un empleado
 
 
